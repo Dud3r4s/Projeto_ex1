@@ -1,0 +1,86 @@
+body{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(196, 11, 11), rgb(254, 204, 4));
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); /*MUDA A COR DO FUNDO DA COMANDA*/
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    color: rgb(255, 254, 254); /*MUDA A COR DAS LETRAS DA COMANDA*/
+     
+}
+
+fieldset{
+    border: 3px solid rgb(255, 30, 30); /* COR DA LINHA*/
+    box-sizing: border-box;
+}
+
+legend{
+    border: 1px solid rgb(255, 30, 30); /*COR DA BORDA  DO TITULO COM.D.BUTECO */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(255, 4, 4); /*COR DO FUNDO DO TITULO COM.DE.BUTECO*/
+   
+}
+
+.inputBox{
+    position: relative; /*CONFIGURA A POSIÇÃO DOS */
+    
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255); /*COR DAS LINHAS DOS INPUTS*/
+    outline: none;
+    color: white; /*COR DAS LETRAS DOS INPUTS*/
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+   
+}
+
+.labelInput{ /* FAZ A TRANSIÇÃO DO INPUT, QUANDO CLICA*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput { /* FAZ A TRANSIÇÃO DO INPUT, QUANDO CLICA*/
+    top: -20px;
+    font-size: 12px;
+    color: rgb(255, 254, 254); /*MUDA A COR DA LETRA DOS INPUTS QUANDO CLICA EM CIMA*/
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image: linear-gradient(to right,rgb(254, 3, 3), rgb(238, 255, 2)); /*MUDA A COR DE FUNDO DO BOTÃO*/
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;/*MUDA A COR DA LETRA DO BOTÃO ENVIAR*/
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+ }
+
+ 

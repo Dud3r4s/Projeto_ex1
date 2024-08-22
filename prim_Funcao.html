@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comanda de Bar</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="box">
+        <form action="/cliente" method="POST">  <!-- Método corrigido para POST -->
+            <fieldset>
+                <legend><b>Comanda de Buteco</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="cpf" id="cpf" class="inputUser" required>
+                    <label for="cpf" class="labelInput">CPF:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="data_aniversario" id="data_aniversario" class="inputUser" required>
+                    <label for="data_aniversario" class="labelInput">Data Aniversário:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereço" class="labelInput">Endereço:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="bairro" id="bairro" class="inputUser" required>
+                    <label for="bairro" class="labelInput">Bairro:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Cidade:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Estado:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="cep" id="cep" class="inputUser" required>
+                    <label for="cep" class="labelInput">CEP:</label>
+                </div>
+                <br><br>
+                <input type="submit" nome="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
