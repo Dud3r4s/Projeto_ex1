@@ -1,2 +1,59 @@
-# Projeto_ex1
-O Projeto consiste em uma comanda de bar, aonde você pode fazer os seus pedidos, finalizar a comanda, efetuar o pagamento e dar uma avaliação final ao estabelecimento.
+PROJETO / SITEMA DE COMANDA DE BAR
+
+
+
+1° O CLIENTE FAZ O CADASTRO DA COMANDA.
+
+NOME:
+RG/CPF:
+DATA DE ANIVESARIO:
+TELEFONE:
+ENDEREÇO:
+CEP:
+
+BOTÃO GRAVA NO BANCO AS INFORMAÇÕES
+===============================================================================
+2° APÓS O CADASTRO O CLIENTE FAZ O SEU PEDIDO.
+
+BEBIDA:
+
+NUMERO DA MESA:
+
+CERVEJA + QUANTIDADE
+REFRIGERANTE + QUANTIDADE
+AGUA + QUANTIDADE
+-------------------------------------------------------------------------------
+PETISCOS:
+BATATA FRITA + QUANTIDADE
+FRANGO A PASSARINHO + QUANTIDADE
+MINI PASTEIS + QUANTIDADE
+
+==============================================================================
+3° PARECERA UMA MENSAGEM COM O PEDIDO DO CLIENTE
+
+QUANTIDADE DE BEBIDAS
+QUANTIDADE DE COMIDA
+
+===============================================================================
+
+4° FECHAMENTO DA CONTA O CLIENTE FAZ A SOLICITAÇÃO DA CONTA.
+
+O BOTÃO FECHAR NO APP, FECHA A CONTA, FAZ O CALCULO DE TODA A COMANDA E DEVOLVE:
+
+NUMERO DA MESA:
+VALOR A SER PAGO:
+MODO DE PAGAMENTO:
+
+PIX:
+DEBITO:
+CRÉDITO:
+
+===============================================================================
+
+5° FINALIZAÇÃO DO PROJETO:
+
+APÓS A FINALIZAÇÃO DO PAGAMENTO O SOFTWARE PEDE UMA AVALIAÇÃO REFERENTE AO ESTABELECIMENTO:
+
+COMIDA = NOTA DE 0 A 10
+BEBIDA = NOTA DE 0 A 10
+ATENDIMENTO = NOTA DE 0 A 10
