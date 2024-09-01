@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comanda de Bar</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estilo.css') }}"> 
+    
+   
+
 </head>
 <body>
     <div class="box">
-        <form action="/cliente" method="POST">  <!-- Método corrigido para POST -->
+        <form action="/login_cliente" method="POST"> 
             <fieldset>
                 <legend><b>Comanda de Buteco</b></legend>
                 <br>
@@ -23,7 +26,7 @@
                 </div>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="data_aniversario" id="data_aniversario" class="inputUser" required>
+                    <input type="text" name="data_aniversario" id="data_aniversario" class="inputUser" required> 
                     <label for="data_aniversario" class="labelInput">Data Aniversário:</label>
                 </div>
                 <br>
@@ -56,5 +59,9 @@
             </fieldset>
         </form>
     </div>
+
+  
+
 </body>
 </html>
+
