@@ -4,6 +4,37 @@ body{
     background-image: linear-gradient(to right, rgb(196, 11, 11), rgb(254, 204, 4));
 }
 
+.corpo_pedido{ /*Estiliza o fundo ta tela de login*/
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(247, 243, 10), rgb(247, 142, 6));
+}
+
+.bebida{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.botao{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); /*MUDA A COR DO FUNDO DA COMANDA*/
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    color: rgb(255, 254, 254); 
+
+
+}
+
+
+
 .box{
     position: absolute;
     top: 50%;
